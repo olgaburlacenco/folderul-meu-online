@@ -1,0 +1,116 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 Arial-BoldMT;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red16\green60\blue192;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c6667\c33333\c80000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \expnd0\expndtw0\kerning0
+\ul \ulc0 \outl0\strokewidth0 \strokec2 Feature:\ulnone  \'cenregistrarea unui utilizator nou (Step 1) {\field{\*\fldinst{HYPERLINK "http://www.utest.com/"}}{\fldrslt \cf3 \ul \ulc3 \strokec3 www.utest.com}}
+\f1\fs24 \
+\
+
+\f0\fs29\fsmilli14667 \ul Scenario 1:\ulnone  Utilizatorul poate cu succes introduce datele personale
+\f1\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\b\fs29\fsmilli14667 \cf0 Given
+\f0\b0 : Utilizatorul se afl\uc0\u259  pe prima pagina\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When
+\f0\b0 : Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And: 
+\f0\b0 Utilizatorul tapeaz\uc0\u259  \'93Olga\'94 \'een spa\u539 iul de text \'93First name:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  pictograma \'93Check\'94 \'een dreptul acestuia
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When: 
+\f0\b0 Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And: 
+\f0\b0 Utilizatorul tapeaz\uc0\u259  \'93Burlacenco\'94 \'een spa\u539 iul de text \'93Last name:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  pictograma \'93Check\'94 \'een dreptul acestuia
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When: 
+\f0\b0 Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And: 
+\f0\b0 Utilizatorul tapeaz\uc0\u259  \'93olea130490@yahoo.com\'94 \'een spa\u539 iul de text \'93Email address:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  pictograma \'93Check\'94 \'een dreptul acestuia
+\f1\fs24 \
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs29\fsmilli14667 \cf0 \ul \ulc0 Scenario 2:\ulnone  Utilizatorul nu poate cu succes introduce datele personale
+\f1\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\b\fs29\fsmilli14667 \cf0 Given
+\f0\b0 : Utilizatorul se afl\uc0\u259  pe prima pagina
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When
+\f0\b0 :Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And:
+\f0\b0  Utilizatorul tapeaz\uc0\u259  \'93m\'94 \'een spa\u539 iul de text \'93First name:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  un mesaj de eroare
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When
+\f0\b0 :Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And:
+\f0\b0  Utilizatorul tapeaz\uc0\u259  \'93a\'94 \'een spa\u539 iul de text \'93Last name:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  un mesaj de eroare
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 When: 
+\f0\b0 Utilizatorul d\uc0\u259  click pe butonul \'93Join Today\'94\'a0
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 And: 
+\f0\b0 Utilizatorul tapeaz\uc0\u259  \'93com\'94 \'een spa\u539 iul de text \'93Email address:\'94
+\f1\fs24 \
+
+\f2\b\fs29\fsmilli14667 Then
+\f0\b0 : Utilizatorul ar trebui s\uc0\u259  vad\u259  un mesaj de eroare
+\f1\fs24 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
